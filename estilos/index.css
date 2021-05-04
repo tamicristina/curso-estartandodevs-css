@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  font-family: "Abel", "Lato", sans-serif;
+}
+
+.introduçãobg {
+  background-image: url(../fundo1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* section */
+.text-introduçãobg {
+  color: aliceblue;
+  font-size: 50px;
+  font: oblique;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+}
+/* Botão introdução */
+.btnbg {
+  line-height: 80px;
+  padding: 10px 35px;
+  border: 20px solid rgb(199, 44, 44);
+  border-radius: 100px;
+  background-color: rgb(199, 44, 44);
+  font-size: 30px;
+  color: rgb(252, 253, 253);
+  text-decoration: none;
+  text-align: center;
+}
+.bottom {
+  width: 1000px;
+  margin-left: 45%;
+  margin-right: auto;
+  margin-top: 200px;
+}
+a:hover {
+  text-decoration: underline;
+}

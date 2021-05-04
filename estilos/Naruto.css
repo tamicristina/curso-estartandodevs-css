@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+/* Aqui eu defini uma fonte padrão para todas as partes do site */
+* {
+  font-family: "Abel", "Lato", sans-serif;
+}
+
+/* Aqui eu coloquei a imagem de fundo do site */
+body {
+  background-image: url(../Fundo2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  /* Aqui eu coloquei o menu em lista e configurei ele na horizontal, também coloquei um efeito de clique  */
+}
+.menu-list ul {
+  padding: 5px;
+  margin: 0px 0px 50px;
+  background-color: #1a1919;
+  text-align: center;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #3d3c3c;
+}
+.menu-list ul li {
+  display: inline;
+}
+
+.menu-list ul li a {
+  padding: 40px 100px;
+  display: inline-block;
+  color: rgb(199, 44, 44);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+.menu-list ul li a:hover {
+  background-color: rgb(48, 46, 46);
+  border-bottom: 3px solid #e73b3b;
+}
+
+/* Aqui são as pesonalizações das imagens laterais do menu */
+.img1 {
+  width: 150px;
+  position: absolute;
+  left: 100px;
+}
+.img2 {
+  width: 170px;
+  position: absolute;
+  right: 100px;
+}
+/* Aqui é a configuração da section, dei um mesmo efeito de uma table */
+section {
+  width: 1100px;
+  height: 100%;
+  background-color: rgb(48, 46, 46);
+  box-shadow: 0px 0px 3px rgb(199, 44, 44);
+  padding: 10px;
+  margin-left: 25%;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+/* Aqui eu utilizei para centralizar o gif no meio da tela */
+.naruto-gif {
+  padding-left: 150px;
+}
+
+/* Tamanho do tiítulo h2 */
+.narutoh2 {
+  font-size: 30px;
+}
+
+/* Conteúdo da section */
+.text-naruto {
+  width: 90%;
+  text-align: justify;
+  text-indent: 50px;
+  padding: 10px;
+  margin-left: 10px;
+  color: beige;
+  font-size: 20px;
+}
+
+/* Aqui eu configurei a msg do rodapé e a borda  */
+.rodape {
+  width: 1100px;
+  text-align: center;
+  border-top: 1px solid rgb(92, 72, 72);
+  font-size: 18px;
+  color: beige;
+  padding-bottom: 1rem;
+  position: fixed;
+  bottom: 0;
+  margin: 20px;
+  margin-left: 25%;
+}
+.rodape a {
+  text-align: center;
+  color: rgb(199, 44, 44);
+}
